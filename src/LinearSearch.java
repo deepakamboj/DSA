@@ -17,11 +17,11 @@ public class LinearSearch {
         for(int i=0;i<nums.length;i++){
             steps++;
             if(nums[i]==target) {
-                System.out.println("steps taken by linear search : " + steps);
+                System.out.println("steps taken by linear search :  " + steps);
                 return i;
             }
         }
-        System.out.println("steps taken by linear search : "+steps);
+        System.out.println("steps taken by linear search :  "+steps);
         return -1;
     }
 }

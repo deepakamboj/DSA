@@ -25,7 +25,7 @@ public class BinarySearch {
             int mid = (left+right)/2;
 
             if(nums[mid]==target) {
-                System.out.println("steps taken by binary search : " + steps);
+                System.out.println("steps taken by binary search :  " + steps);
                 return mid;
             }else if (nums[mid]<target) {
                 left = mid + 1;
@@ -35,7 +35,7 @@ public class BinarySearch {
             }
 
         }
-        System.out.println("steps taken by binary search : " + steps);
+        System.out.println("steps taken by binary search :  " + steps);
         return -1;
     }
 }
