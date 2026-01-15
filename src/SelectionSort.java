@@ -1,4 +1,5 @@
 public class SelectionSort {
+    //smallest element reached at the start
     public static void main(String[] args) {
         int nums []={16,15,12,18,19,14};
         int size = nums.length;

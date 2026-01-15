@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class BubbleSort {
+    //greatest element reached at the last
     public static void main(String[] args) {
         int nums[] ={6,4,8,9,2,5};
         int size = nums.length;
